@@ -6,3 +6,7 @@ Projeto com intuito de fazer um sistema de gerenciamento de um restaurante.
 - Gerenciamento de Pedidos
 - Integração com banco de dados
 - Construção FrontEnd
+- Construção BackEnd
+
+
+Devs: Álvaro Armani e Jorge Gobbi
