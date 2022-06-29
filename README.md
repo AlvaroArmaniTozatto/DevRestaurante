@@ -9,4 +9,4 @@ Projeto com intuito de fazer um sistema de gerenciamento de um restaurante.
 - Construção BackEnd
 
 
-Devs: Álvaro Armani e Jorge Gobbi
+Devs: Álvaro Armani e Jorge Gobbi!
