@@ -4,14 +4,13 @@ body{
     font-family: 'Noto Sans', sans-serif;
     background-image: url('/src/img/back-restaurante.jpg');
     background-repeat:no-repeat;
-    background-size: cover; 
-    
+    background-size: cover;   
 }
 body * {
     box-sizing: border-box;
 }
 .container{
-    background: #00000096;
+    background: #00000071;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -22,8 +21,8 @@ body * {
     width: 400px;
     height: 500px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    align-items:center;
     flex-direction: column;
     padding: 30px 35px;
     background: #EFEFEF;
@@ -77,14 +76,18 @@ body * {
     box-shadow: 0 7px 35px #00000056;
 }
 
-@media only screen and (max-width: 950px) {
+@media  only screen and (max-width: 950px) {
 
     .card-login {
-        width: 60%;
+        width: 70%;
     }   
 }
 
-@media only screen and (max-width: 600px) {
+@media  only screen and (max-width: 600px) {
+
+    .card-login{
+        width: 90;
+    }
 
     .left-login > h1{
         display: none;
@@ -97,7 +100,5 @@ body * {
         width: 50vw;
     }
 
-    .card-login{
-        width: 90%;
-    }
+    
 }
